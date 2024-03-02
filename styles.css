@@ -5,9 +5,10 @@ body {
   height: 100;
   margin: 0;
   /* background-color: #5e627b; */
-  color: #fff;
+  color: #faf6f6dc;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.685);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background: linear-gradient(-70deg, #5e627b, #7e474d, #d6c1c4);
+  background: linear-gradient(-70deg, #5e627b, #7e474d63, #d6c1c4);
   background-size: 200% 100%;
   animation: gradientAnimation 5s linear infinite alternate;
 
@@ -222,8 +223,8 @@ body {
 .queue {
   margin-top: 20px;
   text-align: center;
-  background-color: rgba(236, 234, 234, 0.473);
-  color: #202020;
+  background-color: rgba(236, 234, 234, 0.63);
+  color: #000000;
   border-radius: 8px;
   padding: 10px;
   box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.856);
